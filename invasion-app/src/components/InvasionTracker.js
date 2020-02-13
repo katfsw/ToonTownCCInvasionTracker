@@ -23,6 +23,7 @@ const InvasionTracker = () => {
             <div className="inv-bg">
                 <img className="ttcc-logo" src="https://sitecdn.corporateclash.net/logo.png"/>
             </div>
+            <h3 className="inv-text"> Currently Active Invasions </h3>
             {
                 cog.map(inv=>(
                     <CogCard inv={inv} key={cog.id}/>
