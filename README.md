@@ -1,6 +1,6 @@
 # ToonTownCCInvasionTracker
 
-Used (Toon Town Corporate Clash API)[https://github.com/CorporateClash/api-docs] to pull in data about Current Invasions for Toon Town Corporate Clash. Fully Responsive Website with several breakpoints. Automatically updates w/ the API.
+Used [Toon Town Corporate Clash API](https://github.com/CorporateClash/api-docs) to pull in data about Current Invasions for Toon Town Corporate Clash. Fully Responsive Website with several breakpoints. Automatically updates w/ the API.
 
 ---
 
