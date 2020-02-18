@@ -2,6 +2,7 @@ import React from 'react'
 
 const Groups = () => {
         return (
+
             <div class="group-boarding inv-bg">
                 <h3> Hello there! </h3>
                 <p> Currently this page is a Work In Progress, </p>
