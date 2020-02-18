@@ -47,6 +47,9 @@ body {
 .inv-bg{
   padding: 1rem;
   background-image: url('https://sitecdn.corporateclash.net/images/header.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .ttcc-logo{
@@ -173,4 +176,9 @@ body {
 .inv-text{
   font-family: 'Arvo', serif;
   color: white;
+}
+
+
+.group-boarding{
+  padding: 5rem;
 }

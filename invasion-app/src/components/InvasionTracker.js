@@ -10,7 +10,6 @@ const InvasionTracker = () => {
         axios
         .get("https://corporateclash.net/api/v1/districts.js")
         .then(res=>{
-        console.log(res.data)
         setCog(res.data)
         })
         .catch(err=>{
@@ -18,12 +17,24 @@ const InvasionTracker = () => {
         })
     },[])
 
+    const refreshFunc = () => {
+        axios
+        .get("https://corporateclash.net/api/v1/districts.js")
+        .then(res=>{
+        setCog(res.data)
+        })
+        .catch(err=>{
+        console.log(err)
+        })
+    }
+
     return(
         <div className="inv-bg">
             <div className="inv-bg">
                 <img className="ttcc-logo" src="https://sitecdn.corporateclash.net/logo.png"/>
             </div>
             <h3 className="inv-text"> Currently Active Invasions </h3>
+            <button onClick={()=>refreshFunc()}>Refresh</button>
             {
                 cog.map(inv=>(
                     <CogCard inv={inv} key={cog.id}/>

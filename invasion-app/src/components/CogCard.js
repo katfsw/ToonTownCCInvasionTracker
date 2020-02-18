@@ -10,7 +10,7 @@ const CogCard = (props) => {
                         <p><b className="cog-text">Cogs Attacking:</b> <br/><i>{props.inv.cogs_attacking}</i></p>
                         <p><b className="cog-text">Count Defeated:</b> <br/><i>{props.inv.count_defeated}</i></p>
                         <p><b className="cog-text">Count Total:</b> <br/><i>{props.inv.count_total}</i></p>
-                        <p><b className="cog-text">Remaining Time:</b> <br/><i>{props.inv.remaining_time}</i></p>
+                        <p><b className="cog-text">Remaining Time:</b> <br/><i>{props.inv.remaining_time} seconds</i></p>
                 </div>
             </div>
         </>
