@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import Groups from './components/Groups'
 import { Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
